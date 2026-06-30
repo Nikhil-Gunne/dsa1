@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1189-maximum-number-of-balloons](https://github.com/Nikhil-Gunne/dsa1/tree/master/1189-maximum-number-of-balloons) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Nikhil-Gunne/dsa1/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Nikhil-Gunne/dsa1/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
+| [3614-process-string-with-special-operations-ii](https://github.com/Nikhil-Gunne/dsa1/tree/master/3614-process-string-with-special-operations-ii) |
 ## Hash Table
 |  |
 | ------- |
@@ -82,4 +83,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1344-angle-between-hands-of-a-clock](https://github.com/Nikhil-Gunne/dsa1/tree/master/1344-angle-between-hands-of-a-clock) |
 | [1840-maximum-building-height](https://github.com/Nikhil-Gunne/dsa1/tree/master/1840-maximum-building-height) |
+## Simulation
+|  |
+| ------- |
+| [3614-process-string-with-special-operations-ii](https://github.com/Nikhil-Gunne/dsa1/tree/master/3614-process-string-with-special-operations-ii) |
 <!---LeetCode Topics End-->
