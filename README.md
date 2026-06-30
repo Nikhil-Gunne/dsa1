@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Nikhil-Gunne/dsa1/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/Nikhil-Gunne/dsa1/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/Nikhil-Gunne/dsa1/tree/master/2196-create-binary-tree-from-descriptions) |
+| [2574-left-and-right-sum-differences](https://github.com/Nikhil-Gunne/dsa1/tree/master/2574-left-and-right-sum-differences) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Nikhil-Gunne/dsa1/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3689-maximum-total-subarray-value-i](https://github.com/Nikhil-Gunne/dsa1/tree/master/3689-maximum-total-subarray-value-i) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Nikhil-Gunne/dsa1/tree/master/3737-count-subarrays-with-majority-element-i) |
@@ -75,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1732-find-the-highest-altitude](https://github.com/Nikhil-Gunne/dsa1/tree/master/1732-find-the-highest-altitude) |
+| [2574-left-and-right-sum-differences](https://github.com/Nikhil-Gunne/dsa1/tree/master/2574-left-and-right-sum-differences) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Nikhil-Gunne/dsa1/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Nikhil-Gunne/dsa1/tree/master/3739-count-subarrays-with-majority-element-ii) |
 ## Counting
