@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Nikhil-Gunne/dsa1/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Nikhil-Gunne/dsa1/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/Nikhil-Gunne/dsa1/tree/master/2161-partition-array-according-to-given-pivot) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/Nikhil-Gunne/dsa1/tree/master/2196-create-binary-tree-from-descriptions) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Nikhil-Gunne/dsa1/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3689-maximum-total-subarray-value-i](https://github.com/Nikhil-Gunne/dsa1/tree/master/3689-maximum-total-subarray-value-i) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Nikhil-Gunne/dsa1/tree/master/3737-count-subarrays-with-majority-element-i) |
@@ -31,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1189-maximum-number-of-balloons](https://github.com/Nikhil-Gunne/dsa1/tree/master/1189-maximum-number-of-balloons) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Nikhil-Gunne/dsa1/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/Nikhil-Gunne/dsa1/tree/master/2196-create-binary-tree-from-descriptions) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Nikhil-Gunne/dsa1/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Nikhil-Gunne/dsa1/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/Nikhil-Gunne/dsa1/tree/master/3739-count-subarrays-with-majority-element-ii) |
@@ -115,9 +117,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [2196-create-binary-tree-from-descriptions](https://github.com/Nikhil-Gunne/dsa1/tree/master/2196-create-binary-tree-from-descriptions) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/Nikhil-Gunne/dsa1/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 ## Depth-First Search
 |  |
 | ------- |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/Nikhil-Gunne/dsa1/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
+## Binary Tree
+|  |
+| ------- |
+| [2196-create-binary-tree-from-descriptions](https://github.com/Nikhil-Gunne/dsa1/tree/master/2196-create-binary-tree-from-descriptions) |
 <!---LeetCode Topics End-->
