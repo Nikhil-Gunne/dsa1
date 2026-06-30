@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1833-maximum-ice-cream-bars](https://github.com/Nikhil-Gunne/dsa1/tree/master/1833-maximum-ice-cream-bars) |
+| [1840-maximum-building-height](https://github.com/Nikhil-Gunne/dsa1/tree/master/1840-maximum-building-height) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Nikhil-Gunne/dsa1/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Nikhil-Gunne/dsa1/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Nikhil-Gunne/dsa1/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1833-maximum-ice-cream-bars](https://github.com/Nikhil-Gunne/dsa1/tree/master/1833-maximum-ice-cream-bars) |
+| [1840-maximum-building-height](https://github.com/Nikhil-Gunne/dsa1/tree/master/1840-maximum-building-height) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Nikhil-Gunne/dsa1/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 ## Enumeration
 |  |
@@ -73,4 +75,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1833-maximum-ice-cream-bars](https://github.com/Nikhil-Gunne/dsa1/tree/master/1833-maximum-ice-cream-bars) |
+## Math
+|  |
+| ------- |
+| [1840-maximum-building-height](https://github.com/Nikhil-Gunne/dsa1/tree/master/1840-maximum-building-height) |
 <!---LeetCode Topics End-->
