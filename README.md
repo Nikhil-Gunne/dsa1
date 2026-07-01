@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2161-partition-array-according-to-given-pivot](https://github.com/Nikhil-Gunne/dsa1/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/Nikhil-Gunne/dsa1/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2574-left-and-right-sum-differences](https://github.com/Nikhil-Gunne/dsa1/tree/master/2574-left-and-right-sum-differences) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/Nikhil-Gunne/dsa1/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/Nikhil-Gunne/dsa1/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Nikhil-Gunne/dsa1/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3689-maximum-total-subarray-value-i](https://github.com/Nikhil-Gunne/dsa1/tree/master/3689-maximum-total-subarray-value-i) |
@@ -145,5 +146,22 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/Nikhil-Gunne/dsa1/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/Nikhil-Gunne/dsa1/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
+## Breadth-First Search
+|  |
+| ------- |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/Nikhil-Gunne/dsa1/tree/master/2812-find-the-safest-path-in-a-grid) |
+## Union-Find
+|  |
+| ------- |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/Nikhil-Gunne/dsa1/tree/master/2812-find-the-safest-path-in-a-grid) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/Nikhil-Gunne/dsa1/tree/master/2812-find-the-safest-path-in-a-grid) |
+## Matrix
+|  |
+| ------- |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/Nikhil-Gunne/dsa1/tree/master/2812-find-the-safest-path-in-a-grid) |
 <!---LeetCode Topics End-->
