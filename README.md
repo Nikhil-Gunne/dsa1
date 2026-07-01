@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0396-rotate-function](https://github.com/Nikhil-Gunne/dsa1/tree/master/0396-rotate-function) |
 | [1732-find-the-highest-altitude](https://github.com/Nikhil-Gunne/dsa1/tree/master/1732-find-the-highest-altitude) |
 | [1833-maximum-ice-cream-bars](https://github.com/Nikhil-Gunne/dsa1/tree/master/1833-maximum-ice-cream-bars) |
 | [1840-maximum-building-height](https://github.com/Nikhil-Gunne/dsa1/tree/master/1840-maximum-building-height) |
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0396-rotate-function](https://github.com/Nikhil-Gunne/dsa1/tree/master/0396-rotate-function) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/Nikhil-Gunne/dsa1/tree/master/1344-angle-between-hands-of-a-clock) |
 | [1840-maximum-building-height](https://github.com/Nikhil-Gunne/dsa1/tree/master/1840-maximum-building-height) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/Nikhil-Gunne/dsa1/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
@@ -142,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0396-rotate-function](https://github.com/Nikhil-Gunne/dsa1/tree/master/0396-rotate-function) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Nikhil-Gunne/dsa1/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 ## Binary Search
 |  |
