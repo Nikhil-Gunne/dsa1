@@ -33,40 +33,36 @@ class DSU:
    
 class Solution:
     def minScore(self, n: int, roads: List[List[int]]) -> int:
-        dsu = DSU(n)
+        # dsu = DSU(n)
 
-        for u,v,d in roads:
-            dsu.unionBySize(u,v,d)
+        # for u,v,d in roads:
+        #     dsu.unionBySize(u,v,d)
         
-        par_1 = dsu.findParent(1)
-        # par_2 = dsu.findParent(n)
+        # par_1 = dsu.findParent(1)
+        # # par_2 = dsu.findParent(n)
 
-        return dsu.dist[par_1] 
+        # return dsu.dist[par_1] 
 
        
 
-        # graph = defaultdict(list)
+        graph = defaultdict(list)
 
-        # for u,v,d in roads:
-        #     graph[u].append((v,d))
-        #     graph[v].append((u,d))
+        for u,v,d in roads:
+            graph[u].append((v,d))
+            graph[v].append((u,d))
         
-        # q = deque([1])
-        # visited = set()
-        # visited.add(1)
-        # res = float('inf')
-        # while q:
-        #     curr = q.popleft()
-
-        #     if curr == n:
-        #         break
-            
-        #     for v,d in graph[curr]:
-        #         if v not in visited:
-        #             visited.add(v)
-        #             res = min(res,d)
-        #             q.append((v))
-        # return res
+        q = deque([1])
+        visited = set()
+        visited.add(1)
+        res = float('inf')
+        while q:
+            curr = q.popleft()
+            for v,d in graph[curr]:
+                res = min(res,d)
+                if v not in visited:
+                    visited.add(v)
+                    q.append((v))
+        return res
         
 
         
