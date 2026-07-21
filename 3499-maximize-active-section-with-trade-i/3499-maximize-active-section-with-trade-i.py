@@ -5,6 +5,7 @@ class Solution:
         currBlock =0
         onesBlock = 0
         res = 0
+
         totalOnes = s.count('1')
         s+='1'
         for i in s:
@@ -12,7 +13,9 @@ class Solution:
                 currBlock += 1
             else:
                 if prevBlock > 0 and currBlock > 0  and onesBlock > 0:
-                    res = max(res,prevBlock+currBlock+onesBlock+(totalOnes-onesBlock))
+                    # res = max(res,prevBlock+currBlock+onesBlock+(totalOnes-onesBlock))
+                    res = max(res,prevBlock+currBlock+totalOnes)
+
                     onesBlock = 0
 
                 if currBlock > 0:
