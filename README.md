@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0164-maximum-gap](https://github.com/Nikhil-Gunne/dsa1/tree/master/0164-maximum-gap) |
 | [0396-rotate-function](https://github.com/Nikhil-Gunne/dsa1/tree/master/0396-rotate-function) |
 | [1260-shift-2d-grid](https://github.com/Nikhil-Gunne/dsa1/tree/master/1260-shift-2d-grid) |
 | [1288-remove-covered-intervals](https://github.com/Nikhil-Gunne/dsa1/tree/master/1288-remove-covered-intervals) |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0164-maximum-gap](https://github.com/Nikhil-Gunne/dsa1/tree/master/0164-maximum-gap) |
 | [1288-remove-covered-intervals](https://github.com/Nikhil-Gunne/dsa1/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/Nikhil-Gunne/dsa1/tree/master/1331-rank-transform-of-an-array) |
 | [1833-maximum-ice-cream-bars](https://github.com/Nikhil-Gunne/dsa1/tree/master/1833-maximum-ice-cream-bars) |
@@ -267,4 +269,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Nikhil-Gunne/dsa1/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+## Bucket Sort
+|  |
+| ------- |
+| [0164-maximum-gap](https://github.com/Nikhil-Gunne/dsa1/tree/master/0164-maximum-gap) |
+## Radix Sort
+|  |
+| ------- |
+| [0164-maximum-gap](https://github.com/Nikhil-Gunne/dsa1/tree/master/0164-maximum-gap) |
 <!---LeetCode Topics End-->
