@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0164-maximum-gap](https://github.com/Nikhil-Gunne/dsa1/tree/master/0164-maximum-gap) |
 | [0396-rotate-function](https://github.com/Nikhil-Gunne/dsa1/tree/master/0396-rotate-function) |
+| [0628-maximum-product-of-three-numbers](https://github.com/Nikhil-Gunne/dsa1/tree/master/0628-maximum-product-of-three-numbers) |
 | [1260-shift-2d-grid](https://github.com/Nikhil-Gunne/dsa1/tree/master/1260-shift-2d-grid) |
 | [1288-remove-covered-intervals](https://github.com/Nikhil-Gunne/dsa1/tree/master/1288-remove-covered-intervals) |
 | [1301-number-of-paths-with-max-score](https://github.com/Nikhil-Gunne/dsa1/tree/master/1301-number-of-paths-with-max-score) |
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0164-maximum-gap](https://github.com/Nikhil-Gunne/dsa1/tree/master/0164-maximum-gap) |
+| [0628-maximum-product-of-three-numbers](https://github.com/Nikhil-Gunne/dsa1/tree/master/0628-maximum-product-of-three-numbers) |
 | [1288-remove-covered-intervals](https://github.com/Nikhil-Gunne/dsa1/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/Nikhil-Gunne/dsa1/tree/master/1331-rank-transform-of-an-array) |
 | [1833-maximum-ice-cream-bars](https://github.com/Nikhil-Gunne/dsa1/tree/master/1833-maximum-ice-cream-bars) |
@@ -136,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0396-rotate-function](https://github.com/Nikhil-Gunne/dsa1/tree/master/0396-rotate-function) |
+| [0628-maximum-product-of-three-numbers](https://github.com/Nikhil-Gunne/dsa1/tree/master/0628-maximum-product-of-three-numbers) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/Nikhil-Gunne/dsa1/tree/master/1344-angle-between-hands-of-a-clock) |
 | [1840-maximum-building-height](https://github.com/Nikhil-Gunne/dsa1/tree/master/1840-maximum-building-height) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Nikhil-Gunne/dsa1/tree/master/1979-find-greatest-common-divisor-of-array) |
