@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Nikhil-Gunne/dsa1/tree/master/0128-longest-consecutive-sequence) |
 | [0164-maximum-gap](https://github.com/Nikhil-Gunne/dsa1/tree/master/0164-maximum-gap) |
 | [0396-rotate-function](https://github.com/Nikhil-Gunne/dsa1/tree/master/0396-rotate-function) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Nikhil-Gunne/dsa1/tree/master/0628-maximum-product-of-three-numbers) |
@@ -56,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Nikhil-Gunne/dsa1/tree/master/0128-longest-consecutive-sequence) |
 | [1189-maximum-number-of-balloons](https://github.com/Nikhil-Gunne/dsa1/tree/master/1189-maximum-number-of-balloons) |
 | [1331-rank-transform-of-an-array](https://github.com/Nikhil-Gunne/dsa1/tree/master/1331-rank-transform-of-an-array) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Nikhil-Gunne/dsa1/tree/master/1358-number-of-substrings-containing-all-three-characters) |
@@ -229,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Nikhil-Gunne/dsa1/tree/master/0128-longest-consecutive-sequence) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Nikhil-Gunne/dsa1/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2685-count-the-number-of-complete-components](https://github.com/Nikhil-Gunne/dsa1/tree/master/2685-count-the-number-of-complete-components) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Nikhil-Gunne/dsa1/tree/master/2812-find-the-safest-path-in-a-grid) |
