@@ -5,16 +5,14 @@ class Solution:
         for i in word:
             freq[ord(i)-97] +=1
         
-        maxHeap = []
-        for i in range(26):
-            if freq[i]:
-                heappush(maxHeap,-freq[i])
+        freq.sort(reverse = True)
         places = 1
         cnt = 0
         presses = 0
-        while maxHeap:
-            curr = heappop(maxHeap)
-            presses += (-curr*places)
+        for i in range(26):
+            if freq[i] == 0:
+                break
+            presses += (freq[i]*places)
             cnt+=1
             if cnt % 8 == 0:
                 places += 1
