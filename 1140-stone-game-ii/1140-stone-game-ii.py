@@ -9,9 +9,9 @@ class Solution:
             if (idx,x,turn) in dp:
                 return dp[(idx,x,turn)]
 
-            if turn:
-                res = float('-inf')
-            else:
+            
+            res = 0
+            if not turn:
                 res = float('inf')
 
             curr = 0
