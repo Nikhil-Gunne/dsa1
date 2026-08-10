@@ -1,34 +1,53 @@
 class Solution:
     def winnerSquareGame(self, n: int) -> bool:
-
         dp = {}
 
-        def solve(stones, turn):
+        def solve(stones):
             if stones == 0:
-                return True if turn == 0 else False
+                return False
 
-            if (stones, turn) in dp:
-                return dp[(stones, turn)]
+            if stones in dp:
+                return dp[stones]
 
-            if turn == 1:  # Alice
-                res = False
+            for i in range(1, int(stones ** 0.5) + 1):
+                #if we receive false from next state the current player can win as the next player couldn't pick stones
+                if not solve(stones - i * i):
+                    dp[stones] = True
+                    return True
 
-                for i in range(1, int(stones ** 0.5) + 1):
-                    res = res or solve(stones - i * i, turn ^ 1)
+            dp[stones] = False
+            return False
 
-                    if res:
-                        break
+        return solve(n)
 
-            else:  # Bob
-                res = True
+        # dp = {}
 
-                for i in range(1, int(stones ** 0.5) + 1):
-                    res = res and solve(stones - i * i, turn ^ 1)
+        # def solve(stones, turn):
+        #     if stones == 0:
+        #         return True if turn == 0 else False
 
-                    if not res:
-                        break
+        #     if (stones, turn) in dp:
+        #         return dp[(stones, turn)]
 
-            dp[(stones, turn)] = res
-            return res
+        #     if turn == 1:  # Alice
+        #         res = False
 
-        return solve(n, 1)
+        #         for i in range(1, int(stones ** 0.5) + 1):
+        #             res = res or solve(stones - i * i, turn ^ 1)
+
+        #             if res:
+        #                 break
+
+        #     else:  # Bob
+        #         res = True
+
+        #         for i in range(1, int(stones ** 0.5) + 1):
+        #             res = res and solve(stones - i * i, turn ^ 1)
+
+        #             if not res:
+        #                 break
+
+        #     dp[(stones, turn)] = res
+        #     return res
+
+        # return solve(n, 1)
