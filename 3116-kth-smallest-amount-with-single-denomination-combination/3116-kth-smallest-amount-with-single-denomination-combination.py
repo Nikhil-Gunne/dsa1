@@ -1,23 +1,20 @@
 class Solution:
     def findKthSmallest(self, coins: List[int], k: int) -> int:
         n = len(coins)
-        # product of 2 numbers = lcm(a,b) * gcd(a,b)
+        if n==1:
+            return coins[0]*k
+
         def getLcm(a,b):
             return (a*b)//gcd(a,b)
 
         def count(x):
             c = 0
-            for mask in range(1,(1<<n)):
-                #lcm for removing overlapping counts
+            for i in range(1,(1<<n)):
 
-                # x is 12 
-                # 2-> 2 4 6 8 10 12
-                # 4-> 4 8 12 
-                # cnt = 9 but there are repeated values to remove them take the lcm of 2 numbers and divide x by the lcm will remove the count added multiple times
                 currLcm = 1
                 bitCnt = 0
                 for j in range(n):
-                    if mask & (1<<j):
+                    if i & (1<<j):
                         bitCnt += 1
                         currLcm = getLcm(currLcm,coins[j])
                 
@@ -37,5 +34,6 @@ class Solution:
                 low = mid + 1
             else:
                 res = mid
+                print(res)
                 high = mid - 1
         return res
