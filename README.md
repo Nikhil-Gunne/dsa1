@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2161-partition-array-according-to-given-pivot](https://github.com/Nikhil-Gunne/dsa1/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/Nikhil-Gunne/dsa1/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/Nikhil-Gunne/dsa1/tree/master/2213-longest-substring-of-one-repeating-character) |
+| [2369-check-if-there-is-a-valid-partition-for-the-array](https://github.com/Nikhil-Gunne/dsa1/tree/master/2369-check-if-there-is-a-valid-partition-for-the-array) |
 | [2574-left-and-right-sum-differences](https://github.com/Nikhil-Gunne/dsa1/tree/master/2574-left-and-right-sum-differences) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Nikhil-Gunne/dsa1/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Nikhil-Gunne/dsa1/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
@@ -283,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1406-stone-game-iii](https://github.com/Nikhil-Gunne/dsa1/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/Nikhil-Gunne/dsa1/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/Nikhil-Gunne/dsa1/tree/master/1563-stone-game-v) |
+| [2369-check-if-there-is-a-valid-partition-for-the-array](https://github.com/Nikhil-Gunne/dsa1/tree/master/2369-check-if-there-is-a-valid-partition-for-the-array) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Nikhil-Gunne/dsa1/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Nikhil-Gunne/dsa1/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Nikhil-Gunne/dsa1/tree/master/3534-path-existence-queries-in-a-graph-ii) |
