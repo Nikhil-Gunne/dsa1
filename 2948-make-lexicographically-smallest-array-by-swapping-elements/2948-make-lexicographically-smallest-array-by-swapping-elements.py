@@ -3,30 +3,29 @@ class Solution:
         n = len(nums)
         pairs = [(nums[i],i) for i in range(n)]
         pairs.sort()
-        groupVals = defaultdict(list)
-        groupIdxs = defaultdict(SortedList)
-        group = 0
-        groupVals[group].append(pairs[0][0])
-        groupIdxs[group].add(pairs[0][1])
+        groupVals = defaultdict()
         
+        group = 0
+        
+        groupVals[group]= deque([pairs[0][0]])
+        
+        idxToGrp = defaultdict(int)
+        idxToGrp[pairs[0][1]] = group
         for i in range(n-1):
             if pairs[i+1][0]-pairs[i][0] <= limit:
                 groupVals[group].append(pairs[i+1][0])
-                groupIdxs[group].add(pairs[i+1][1])
+                idxToGrp[pairs[i+1][1]] = group
             else:
                 group += 1
-                groupVals[group].append(pairs[i+1][0])
-                groupIdxs[group].add(pairs[i+1][1])
+                idxToGrp[pairs[i+1][1]] = group
+                groupVals[group] = deque([pairs[i+1][0]])
+                
         
-        # print(groupIdxs)
-        # print(groupVals)
-        res = [0] * n
-        for i in range(group+1):
-            idx = 0
-            while idx < len(groupVals[i]):
-                res[groupIdxs[i][idx]] = groupVals[i][idx]
-                idx+=1
-            
+        res = []
+        
+        for i in range(n):
+            idxGrp = idxToGrp[i]
+            res.append(groupVals[idxGrp].popleft())
 
         return res
         
