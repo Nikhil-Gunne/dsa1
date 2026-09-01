@@ -5,32 +5,40 @@ class Solution:
         cols = len(classroom[0])
 
         sr = sc = -1
-        litters = 0
-        littersMap = {}
+        litterMap = {}
+        litterCount = 0
 
-        for i in range(rows):
-            for j in range(cols):
-                if classroom[i][j] == 'S':
-                    sr = i
-                    sc = j
+        for r in range(rows):
+            for c in range(cols):
+                if classroom[r][c] == 'S':
+                    sr, sc = r, c
 
-                elif classroom[i][j] == 'L':
-                    littersMap[(i, j)] = litters
-                    litters += 1
+                elif classroom[r][c] == 'L':
+                    litterMap[(r, c)] = litterCount
+                    litterCount += 1
 
-        if litters == 0:
+        if litterCount == 0:
             return 0
 
-        fullMask = (1 << litters) - 1
+        fullMask = (1 << litterCount) - 1
+
+        
+        best = [[[-1] * (1 << litterCount) for _ in range(cols)] for _ in range(rows)]
+
+        best[sr][sc][0] = energy
 
         q = deque([(sr, sc, energy, 0, 0)])
-        visited = {(sr, sc, energy, 0)}
 
-        directions = [(-1, 0),(1, 0),(0, -1),(0, 1)]
+        directions = [
+            (-1, 0),
+            (1, 0),
+            (0, -1),
+            (0, 1)
+        ]
 
         while q:
 
-            r, c, currEn, mask, moves = q.popleft()
+            r, c, currEnergy, mask, moves = q.popleft()
 
             for dr, dc in directions:
 
@@ -43,34 +51,104 @@ class Solution:
                 if classroom[nr][nc] == 'X':
                     continue
 
+                newEnergy = currEnergy - 1
 
-                newEn = currEn - 1
-
-
-                if newEn < 0:
+                if newEnergy < 0:
                     continue
 
                 newMask = mask
 
-
                 if classroom[nr][nc] == 'L':
-                    newMask |= (1 << littersMap[(nr, nc)])
-
+                    newMask |= 1 << litterMap[(nr, nc)]
 
                 if classroom[nr][nc] == 'R':
-                    newEn = energy
-
+                    newEnergy = energy
 
                 if newMask == fullMask:
                     return moves + 1
 
-                state = (nr, nc, newEn, newMask)
-
-                if state in visited:
+                
+                if newEnergy <= best[nr][nc][newMask]:
                     continue
 
-                visited.add(state)
+                best[nr][nc][newMask] = newEnergy
 
-                q.append((nr, nc, newEn, newMask, moves + 1))
+                q.append((nr, nc, newEnergy, newMask, moves + 1))
 
         return -1
+# class Solution:
+#     def minMoves(self, classroom: List[str], energy: int) -> int:
+
+#         rows = len(classroom)
+#         cols = len(classroom[0])
+
+#         sr = sc = -1
+#         litters = 0
+#         littersMap = {}
+
+#         for i in range(rows):
+#             for j in range(cols):
+#                 if classroom[i][j] == 'S':
+#                     sr = i
+#                     sc = j
+
+#                 elif classroom[i][j] == 'L':
+#                     littersMap[(i, j)] = litters
+#                     litters += 1
+
+#         if litters == 0:
+#             return 0
+
+#         fullMask = (1 << litters) - 1
+
+#         q = deque([(sr, sc, energy, 0, 0)])
+#         visited = {(sr, sc, energy, 0)}
+
+#         directions = [(-1, 0),(1, 0),(0, -1),(0, 1)]
+
+#         while q:
+
+#             r, c, currEn, mask, moves = q.popleft()
+
+#             for dr, dc in directions:
+
+#                 nr = r + dr
+#                 nc = c + dc
+
+#                 if not (0 <= nr < rows and 0 <= nc < cols):
+#                     continue
+
+#                 if classroom[nr][nc] == 'X':
+#                     continue
+
+
+#                 newEn = currEn - 1
+
+
+#                 if newEn < 0:
+#                     continue
+
+#                 newMask = mask
+
+
+#                 if classroom[nr][nc] == 'L':
+#                     newMask |= (1 << littersMap[(nr, nc)])
+
+
+#                 if classroom[nr][nc] == 'R':
+#                     newEn = energy
+
+
+#                 if newMask == fullMask:
+#                     return moves + 1
+
+#                 state = (nr, nc, newEn, newMask)
+
+#                 if state in visited:
+#                     continue
+
+#                 visited.add(state)
+
+#                 q.append((nr, nc, newEn, newMask, moves + 1))
+
+#         return -1
