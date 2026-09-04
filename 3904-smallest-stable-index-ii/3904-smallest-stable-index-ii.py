@@ -7,9 +7,8 @@ class Solution:
             suffixMin[i] = min(suffixMin[i+1],nums[i])
         
         currMax = 0
-        res = float('inf')
         for i in range(n):
             currMax = max(currMax,nums[i])
             if currMax-suffixMin[i] <= k:
-                res = min(res,i)
-        return res if res != float('inf') else -1
+                return i
+        return -1
