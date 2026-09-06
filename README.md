@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0115-distinct-subsequences](https://github.com/Nikhil-Gunne/dsa1/tree/master/0115-distinct-subsequences) |
 | [0451-sort-characters-by-frequency](https://github.com/Nikhil-Gunne/dsa1/tree/master/0451-sort-characters-by-frequency) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Nikhil-Gunne/dsa1/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1189-maximum-number-of-balloons](https://github.com/Nikhil-Gunne/dsa1/tree/master/1189-maximum-number-of-balloons) |
@@ -316,6 +317,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0115-distinct-subsequences](https://github.com/Nikhil-Gunne/dsa1/tree/master/0115-distinct-subsequences) |
 | [0396-rotate-function](https://github.com/Nikhil-Gunne/dsa1/tree/master/0396-rotate-function) |
 | [0486-predict-the-winner](https://github.com/Nikhil-Gunne/dsa1/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/Nikhil-Gunne/dsa1/tree/master/0877-stone-game) |
