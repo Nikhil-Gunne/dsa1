@@ -6,7 +6,7 @@ class Solution:
             intervals[i].append(i)
         
         intervals.sort()
-        print(intervals)
+        # print(intervals)
         def binarySearch(tar):
             low = 0
             high = n-1
