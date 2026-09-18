@@ -1,24 +1,35 @@
 class Solution:
-    def maxNumOfSubstrings(self, s: str) -> List[str]:
-        ranges = collections.defaultdict(list)
-        for idx, ch in enumerate(s):
-            ranges[ch].append(idx)
+    def maxNumOfSubstrings(self, s: str) -> list[str]:
+        n = len(s)
+        start = [-1] * 26
+        end = [0] * 26
+        isValid = [True] * n
 
-        for r in ranges:
-            left, right = ranges[r][0], ranges[r][-1]+1
-            templ, tempr = left, right
-            while True:
-                for ch in set(s[templ:tempr]):
-                    templ = min(templ, ranges[ch][0])
-                    tempr = max(tempr, ranges[ch][-1]+1)
-                if (templ, tempr) == (left, right): break
-                left, right = templ, tempr
-            ranges[r] = (templ, tempr)
-        # 3	
-        sorted_ranges = sorted(ranges.values(), key=lambda pair: pair[1])
-        ans, prev = [], 0
-        for start, end in sorted_ranges:
-            if start >= prev:
-                ans.append(s[start:end])
-                prev = end
-        return ans
+        for i in range(n):
+            pos = ord(s[i])-97
+            if start[pos] == -1:
+                start[pos] = i
+            end[pos] = max(end[pos],i)
+        
+        for c in range(26):
+            if start[c] ==-1:
+                continue
+            idx = start[c]
+            while idx  < end[c]+1:
+                pos = ord(s[idx])-97
+                if start[pos] < start[c]:
+                    isValid[start[c]] = False
+                    break
+                end[c] = max(end[c],end[pos])
+                idx+=1
+        
+        res = []
+        prevUsedIdx = n
+        for idx in range(n-1,-1,-1):
+            pos = ord(s[idx]) - 97
+            if isValid[idx] and start[pos] == idx and end[pos] < prevUsedIdx:
+                res.append(s[start[pos]:end[pos]+1])
+                prevUsedIdx = idx
+        return res
+
+
