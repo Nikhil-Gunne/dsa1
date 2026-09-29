@@ -3,6 +3,9 @@ class Solution:
         rows = len(grid)
         cols = len(grid[0])
 
+      
+
+
         dp = {}
         def solve(r,c,cnt):
             if cnt < 0:
@@ -14,6 +17,10 @@ class Solution:
             if (r,c,cnt) in dp:
                 return dp[(r,c,cnt)]
             right = solve(r,c+1,cnt + (-1 if grid[r][c]==')' else 1))
+            if right:
+                dp[(r,c,cnt)] = right 
+                return dp[(r,c,cnt)]
+                
             down = solve(r+1,c,cnt + (-1 if grid[r][c]==')' else 1))
             dp[(r,c,cnt)] = right or down
             return dp[(r,c,cnt)]
