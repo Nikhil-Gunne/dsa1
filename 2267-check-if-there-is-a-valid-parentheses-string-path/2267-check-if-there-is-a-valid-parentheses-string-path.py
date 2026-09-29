@@ -22,6 +22,9 @@ class Solution:
                 return dp[(r,c,cnt)]
                 
             down = solve(r+1,c,cnt + (-1 if grid[r][c]==')' else 1))
+            if down:
+                dp[(r,c,cnt)] = down
+                return down
             dp[(r,c,cnt)] = right or down
             return dp[(r,c,cnt)]
         return solve(0,0,0)
