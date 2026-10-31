@@ -45,7 +45,7 @@ class Solution:
                         currDir = 'R'
                 down = solve(dx,dy)
             dp[r][c] = (right + down ) % mod
-            return right + down
+            return dp[r][c]
         return solve(0,0) % mod
 
             
