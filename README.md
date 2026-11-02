@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0164-maximum-gap](https://github.com/Nikhil-Gunne/dsa1/tree/master/0164-maximum-gap) |
 | [0347-top-k-frequent-elements](https://github.com/Nikhil-Gunne/dsa1/tree/master/0347-top-k-frequent-elements) |
 | [0396-rotate-function](https://github.com/Nikhil-Gunne/dsa1/tree/master/0396-rotate-function) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Nikhil-Gunne/dsa1/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0486-predict-the-winner](https://github.com/Nikhil-Gunne/dsa1/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Nikhil-Gunne/dsa1/tree/master/0628-maximum-product-of-three-numbers) |
 | [0835-image-overlap](https://github.com/Nikhil-Gunne/dsa1/tree/master/0835-image-overlap) |
@@ -206,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0164-maximum-gap](https://github.com/Nikhil-Gunne/dsa1/tree/master/0164-maximum-gap) |
 | [0347-top-k-frequent-elements](https://github.com/Nikhil-Gunne/dsa1/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/Nikhil-Gunne/dsa1/tree/master/0451-sort-characters-by-frequency) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Nikhil-Gunne/dsa1/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Nikhil-Gunne/dsa1/tree/master/0628-maximum-product-of-three-numbers) |
 | [1096-brace-expansion-ii](https://github.com/Nikhil-Gunne/dsa1/tree/master/1096-brace-expansion-ii) |
 | [1288-remove-covered-intervals](https://github.com/Nikhil-Gunne/dsa1/tree/master/1288-remove-covered-intervals) |
@@ -299,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0396-rotate-function](https://github.com/Nikhil-Gunne/dsa1/tree/master/0396-rotate-function) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Nikhil-Gunne/dsa1/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0486-predict-the-winner](https://github.com/Nikhil-Gunne/dsa1/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Nikhil-Gunne/dsa1/tree/master/0628-maximum-product-of-three-numbers) |
 | [0836-rectangle-overlap](https://github.com/Nikhil-Gunne/dsa1/tree/master/0836-rectangle-overlap) |
