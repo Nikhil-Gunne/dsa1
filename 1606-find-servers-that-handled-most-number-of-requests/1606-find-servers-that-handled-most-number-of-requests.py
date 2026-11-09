@@ -24,7 +24,7 @@ class Solution:
                 requestsHandled[freeServers[idx]]+=1
                 heappush(busyServers,(arrival[i] + load[i],freeServers[idx]))
                 freeServers.pop(idx)
-        print(requestsHandled)
+        # print(requestsHandled)
         res = []
         maxReqs = max(requestsHandled)
         for i in range(k):
